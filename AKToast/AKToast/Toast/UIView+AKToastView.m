@@ -226,7 +226,7 @@ NSString * const AKToastPositionBottom          = @"bottom";
     }
     
     if (message != nil) {
-        messageLabel = [self getCustomLabelWithText:title];
+        messageLabel = [self getCustomLabelWithText:message];
         messageLabel.frame = CGRectMake(0.0, 50.0, 300, 50);
     }
     

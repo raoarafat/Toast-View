@@ -24,7 +24,7 @@
 #pragma mark - Actions
 - (IBAction)messageWithTitle:(id)sender{
     
-    [self.view AKToastWithMessage:@"?" title:@"X sdfas" duration:2.0 position:AKToastPositionNearToTop ];
+    [self.view AKToastWithMessage:@"AK Toast View" title:@"Hello!" duration:2.0 position:AKToastPositionNearToTop ];
 }
 
 @end
