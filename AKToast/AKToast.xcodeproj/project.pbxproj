@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8616904F1BA2B27700BE4703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8616904E1BA2B27700BE4703 /* main.m */; };
+		861690521BA2B27700BE4703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 861690511BA2B27700BE4703 /* AppDelegate.m */; };
+		861690551BA2B27700BE4703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861690541BA2B27700BE4703 /* ViewController.m */; };
+		861690581BA2B27700BE4703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861690561BA2B27700BE4703 /* Main.storyboard */; };
+		8616905A1BA2B27700BE4703 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861690591BA2B27700BE4703 /* Images.xcassets */; };
+		8616905D1BA2B27700BE4703 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8616905B1BA2B27700BE4703 /* LaunchScreen.xib */; };
+		861690691BA2B27700BE4703 /* AKToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861690681BA2B27700BE4703 /* AKToastTests.m */; };
+		861690751BA2B2B000BE4703 /* UIView+AKToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 861690741BA2B2B000BE4703 /* UIView+AKToastView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		861690631BA2B27700BE4703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861690411BA2B27700BE4703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 861690481BA2B27700BE4703;
+			remoteInfo = AKToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		861690491BA2B27700BE4703 /* AKToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8616904D1BA2B27700BE4703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8616904E1BA2B27700BE4703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		861690501BA2B27700BE4703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		861690511BA2B27700BE4703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		861690531BA2B27700BE4703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		861690541BA2B27700BE4703 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		861690571BA2B27700BE4703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		861690591BA2B27700BE4703 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8616905C1BA2B27700BE4703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		861690621BA2B27700BE4703 /* AKToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		861690671BA2B27700BE4703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861690681BA2B27700BE4703 /* AKToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKToastTests.m; sourceTree = "<group>"; };
+		861690731BA2B2B000BE4703 /* UIView+AKToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AKToastView.h"; sourceTree = "<group>"; };
+		861690741BA2B2B000BE4703 /* UIView+AKToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AKToastView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861690461BA2B27700BE4703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8616905F1BA2B27700BE4703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861690401BA2B27700BE4703 = {
+			isa = PBXGroup;
+			children = (
+				8616904B1BA2B27700BE4703 /* AKToast */,
+				861690651BA2B27700BE4703 /* AKToastTests */,
+				8616904A1BA2B27700BE4703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8616904A1BA2B27700BE4703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861690491BA2B27700BE4703 /* AKToast.app */,
+				861690621BA2B27700BE4703 /* AKToastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8616904B1BA2B27700BE4703 /* AKToast */ = {
+			isa = PBXGroup;
+			children = (
+				861690721BA2B29400BE4703 /* Toast */,
+				861690501BA2B27700BE4703 /* AppDelegate.h */,
+				861690511BA2B27700BE4703 /* AppDelegate.m */,
+				861690531BA2B27700BE4703 /* ViewController.h */,
+				861690541BA2B27700BE4703 /* ViewController.m */,
+				861690561BA2B27700BE4703 /* Main.storyboard */,
+				861690591BA2B27700BE4703 /* Images.xcassets */,
+				8616905B1BA2B27700BE4703 /* LaunchScreen.xib */,
+				8616904C1BA2B27700BE4703 /* Supporting Files */,
+			);
+			path = AKToast;
+			sourceTree = "<group>";
+		};
+		8616904C1BA2B27700BE4703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8616904D1BA2B27700BE4703 /* Info.plist */,
+				8616904E1BA2B27700BE4703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		861690651BA2B27700BE4703 /* AKToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				861690681BA2B27700BE4703 /* AKToastTests.m */,
+				861690661BA2B27700BE4703 /* Supporting Files */,
+			);
+			path = AKToastTests;
+			sourceTree = "<group>";
+		};
+		861690661BA2B27700BE4703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861690671BA2B27700BE4703 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		861690721BA2B29400BE4703 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				861690731BA2B2B000BE4703 /* UIView+AKToastView.h */,
+				861690741BA2B2B000BE4703 /* UIView+AKToastView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861690481BA2B27700BE4703 /* AKToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8616906C1BA2B27700BE4703 /* Build configuration list for PBXNativeTarget "AKToast" */;
+			buildPhases = (
+				861690451BA2B27700BE4703 /* Sources */,
+				861690461BA2B27700BE4703 /* Frameworks */,
+				861690471BA2B27700BE4703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKToast;
+			productName = AKToast;
+			productReference = 861690491BA2B27700BE4703 /* AKToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		861690611BA2B27700BE4703 /* AKToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8616906F1BA2B27700BE4703 /* Build configuration list for PBXNativeTarget "AKToastTests" */;
+			buildPhases = (
+				8616905E1BA2B27700BE4703 /* Sources */,
+				8616905F1BA2B27700BE4703 /* Frameworks */,
+				861690601BA2B27700BE4703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				861690641BA2B27700BE4703 /* PBXTargetDependency */,
+			);
+			name = AKToastTests;
+			productName = AKToastTests;
+			productReference = 861690621BA2B27700BE4703 /* AKToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861690411BA2B27700BE4703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Arafat Khan";
+				TargetAttributes = {
+					861690481BA2B27700BE4703 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					861690611BA2B27700BE4703 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 861690481BA2B27700BE4703;
+					};
+				};
+			};
+			buildConfigurationList = 861690441BA2B27700BE4703 /* Build configuration list for PBXProject "AKToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861690401BA2B27700BE4703;
+			productRefGroup = 8616904A1BA2B27700BE4703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861690481BA2B27700BE4703 /* AKToast */,
+				861690611BA2B27700BE4703 /* AKToastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861690471BA2B27700BE4703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861690581BA2B27700BE4703 /* Main.storyboard in Resources */,
+				8616905D1BA2B27700BE4703 /* LaunchScreen.xib in Resources */,
+				8616905A1BA2B27700BE4703 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861690601BA2B27700BE4703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861690451BA2B27700BE4703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861690551BA2B27700BE4703 /* ViewController.m in Sources */,
+				861690751BA2B2B000BE4703 /* UIView+AKToastView.m in Sources */,
+				861690521BA2B27700BE4703 /* AppDelegate.m in Sources */,
+				8616904F1BA2B27700BE4703 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8616905E1BA2B27700BE4703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861690691BA2B27700BE4703 /* AKToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		861690641BA2B27700BE4703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 861690481BA2B27700BE4703 /* AKToast */;
+			targetProxy = 861690631BA2B27700BE4703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		861690561BA2B27700BE4703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861690571BA2B27700BE4703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8616905B1BA2B27700BE4703 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8616905C1BA2B27700BE4703 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8616906A1BA2B27700BE4703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8616906B1BA2B27700BE4703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8616906D1BA2B27700BE4703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AKToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8616906E1BA2B27700BE4703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AKToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		861690701BA2B27700BE4703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AKToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKToast.app/AKToast";
+			};
+			name = Debug;
+		};
+		861690711BA2B27700BE4703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AKToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKToast.app/AKToast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861690441BA2B27700BE4703 /* Build configuration list for PBXProject "AKToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8616906A1BA2B27700BE4703 /* Debug */,
+				8616906B1BA2B27700BE4703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8616906C1BA2B27700BE4703 /* Build configuration list for PBXNativeTarget "AKToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8616906D1BA2B27700BE4703 /* Debug */,
+				8616906E1BA2B27700BE4703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8616906F1BA2B27700BE4703 /* Build configuration list for PBXNativeTarget "AKToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861690701BA2B27700BE4703 /* Debug */,
+				861690711BA2B27700BE4703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861690411BA2B27700BE4703 /* Project object */;
+}
