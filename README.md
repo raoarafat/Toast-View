@@ -1,2 +1,4 @@
 # Toast-View Objective C
-Toast View animation with hide on touch.
+
+##Introduction
+Toast View animation like Android.
